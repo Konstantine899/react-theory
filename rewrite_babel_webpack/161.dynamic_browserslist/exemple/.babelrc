@@ -1,0 +1,12 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "debug": true, // вывод потдерживаемых браузеров
+        "targets": ["> 0.3%", "not ie > 0"]
+      }
+    ]
+  ],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
